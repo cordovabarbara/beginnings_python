@@ -30,4 +30,6 @@ age = input('How old are you? ')
 
 print(first_name)
 print(age)
+
+tipar no funciona, las variables  pueden cambiar el valor
 """

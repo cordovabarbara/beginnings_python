@@ -8,7 +8,7 @@ print("Hola Mundo")
 # consultar tipo de datos
 print(type('soy un dato')) #Tipo 'str'
 print(type(5)) #Tipo inter
-print(type(5.2)) #Tipo decimal
+print(type(5.2)) #Tipo decimal, float
 print(type(True)) #Tipo boo
 print(type(1 +2j)) #Tipo complex
 
