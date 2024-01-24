@@ -31,4 +31,7 @@ my_tuple = tuple(my_tuple)
 print(my_tuple)
 print(type(my_tuple))
 
-#del my_tuple es inmutable, da error
+# no se puede borrar un item de la tuple pero si completa
+tpl1 = ('item1', 'item2', 'item3')
+del tpl1
+
