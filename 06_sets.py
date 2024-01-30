@@ -42,8 +42,9 @@ print(it_companies)
 
 new_companies = {"Linux", "Continuum", "Globant"}
 
-it_companies.update(new_companies)
-print(it_companies)
+all_companies = it_companies.union(new_companies)
+print(all_companies)
+
 
 it_companies.discard("Continuum")
 print(it_companies)
