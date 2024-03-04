@@ -19,6 +19,7 @@ else:
 print("La ejecucion continua")
 
 ##elif necesita una condicion es para hacer algo en concreto
+'''En otras palabras, elif permite evaluar condiciones adicionales después de la primera if y antes de la else. Si la condición en la cláusula if no es verdadera, se verifica la primera cláusula elif, y así sucesivamente. La primera cláusula elif cuya condición sea verdadera se ejecutará y el resto de las cláusulas elif y else se ignorarán.'''
 
 my_string = "Mi texto corto"
 
