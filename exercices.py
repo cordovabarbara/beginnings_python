@@ -14,3 +14,9 @@ for num in range(1,101):
         print('fizz')
     elif num % 5 ==0:
         print('buzz')
+
+#Use for loop to iterate from 0 to 100 and print only even numbers#
+
+for num in range(1,101):
+    if num % 2 == 0:
+        print(num)

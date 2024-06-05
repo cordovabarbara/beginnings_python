@@ -44,3 +44,7 @@ for elements in my_dict:
     print("se ejecuta")
 else:
     print("El bucle For para mi diccionario a finalizado")
+
+it_companies = {'Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon'}
+for company in it_companies:
+    print(company)
