@@ -1,7 +1,7 @@
 # Classes #
 #Creamos una clase para crear un objeto. Una clase es como un constructor de objetos o un "modelo" para crear objetos. Creamos una instancia de una clase para crear un objeto. La clase define los atributos y el comportamiento del objeto, mientras que el objeto, por otro lado, representa la clase.#
 
-class Person:
+class Person:  #constructor de clases
     def __init__(self, name, surname, alias):
         #self.name = name
         #self.surname = surname#
@@ -14,3 +14,10 @@ class Person:
 my_person = Person( "Barbara", "Cordova", ("Barby"))
 print(my_person.full_name)
 my_person.walk()
+
+my_other_person = Person ( "Barbara", "Cordova", "Barby")
+print(my_other_person.full_name)
+
+my_other_person.full_name = ("Cristobal Quilimaco (Kili)")
+print(my_other_person.full_name)
+my_other_person.walk()
