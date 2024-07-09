@@ -18,6 +18,29 @@ year_2024 = datetime(2024, 7, 9)
 
 print_date(year_2024)
 
+from datetime import time
+
+current_time = time(5, 40, 0)
+
+print(current_time.hour)
+
+from datetime import date
+
+current_date = date.today()
+    
+print(current_date.year)
+print(current_date.month)
+print(current_date.day)
+
+
+
+current_date = date(2024, 7, 9)
+
+current_date = date(current_date.year, current_date.month + 1, current_date.day)
+
+print(current_date.month)
+
+
 
 
 
