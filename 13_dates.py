@@ -40,6 +40,12 @@ current_date = date(current_date.year, current_date.month + 1, current_date.day)
 
 print(current_date.month)
 
+print()
+
+from datetime import timedelta
+
+time_delta = timedelta()
+
 
 
 
