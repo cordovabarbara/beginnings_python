@@ -18,7 +18,6 @@ Crea una lista de diccionarios llamada productos, donde cada diccionario represe
 Instrucciones:
 Crea una lista de diccionarios con al menos 5 productos, cada uno con un nombre y un precio.
 Utiliza una función lambda con filter() para filtrar los productos cuyo precio sea mayor a 50.
-Utiliza una función lambda con sorted() para ordenar los productos filtrados de menor a mayor precio.
 Imprime la lista resultante.'''
 
 products = [
