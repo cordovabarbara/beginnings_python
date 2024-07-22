@@ -13,7 +13,7 @@ def sum_three_values(value):
 print(sum_three_values(5)(2,4))
 
 '''Ejercicio:
-Crea una lista de diccionarios llamada productos, donde cada diccionario represente un producto con un nombre y un precio. Luego, utiliza una función lambda para filtrar los productos que tienen un precio mayor a 50 y ordenarlos de menor a mayor precio.
+Crea una lista de diccionarios llamada productos, donde cada diccionario represente un producto con un nombre y un precio. Luego, utiliza una función lambda para filtrar los productos que tienen un precio mayor a 50 
 
 Instrucciones:
 Crea una lista de diccionarios con al menos 5 productos, cada uno con un nombre y un precio.
