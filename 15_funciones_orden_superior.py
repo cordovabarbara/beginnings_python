@@ -1,0 +1,1 @@
+'''son funciones que pueden tomar otras funciones como argumentos y/o devolver funciones como resultados. Estas funciones son una característica poderosa en programación funcional y permiten un alto grado de flexibilidad y reutilización de código'''
