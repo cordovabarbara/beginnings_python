@@ -11,3 +11,5 @@ def sum_two_values_add_value(first_value, second_values, f_sum):
 
 print(sum_two_values_add_value(5, 2, sum_one))
 print(sum_two_values_add_value(5, 2, sum_five))
+
+'''Esta función toma tres argumentos: first_value, second_value y f_sum. El tercer argumento, f_sum, es una función que se aplicará al resultado de first_value + second_value.'''
