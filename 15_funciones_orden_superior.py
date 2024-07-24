@@ -1,5 +1,7 @@
 '''son funciones que pueden tomar otras funciones como argumentos y/o devolver funciones como resultados. Estas funciones son una característica poderosa en programación funcional y permiten un alto grado de flexibilidad y reutilización de código'''
 
+from functools import reduce
+
 def sum_one(value):
     return value + 1
 
@@ -107,3 +109,11 @@ def filter_function(num):
     return False
 
 print(list(filter(filter_function, numbers)))
+
+#Reduce#
+'''toma una función y una secuencia y aplica la función de manera acumulativa a los elementos de la secuencia, de modo que se reduce la secuencia a un solo valor'''
+
+def sum_values(first, second):
+    return first + second
+
+print(reduce(sum_values, numbers ))
