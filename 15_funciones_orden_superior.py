@@ -74,3 +74,14 @@ print(apply_discount_to_products(products, discount_ten))
 print(apply_discount_to_products(products, discount_twenty))
 
 '''
+
+## Closures ##
+'''Un closure en Python ocurre cuando una función anidada (una función definida dentro de otra función) recuerda y puede acceder a las variables de su ámbito envolvente incluso después de que la función envolvente haya terminado de ejecutarse.'''
+
+def sum_ten():
+    def add(value):
+        return value + 10
+    return add
+    
+add_closure = sum_ten()
+print(add_closure(5))
