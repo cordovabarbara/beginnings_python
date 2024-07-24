@@ -78,10 +78,21 @@ print(apply_discount_to_products(products, discount_twenty))
 ## Closures ##
 '''Un closure en Python ocurre cuando una función anidada (una función definida dentro de otra función) recuerda y puede acceder a las variables de su ámbito envolvente incluso después de que la función envolvente haya terminado de ejecutarse.'''
 
-def sum_ten():
+def sum_ten(original_value):
     def add(value):
-        return value + 10
+        return value + 10 + original_value
     return add
     
-add_closure = sum_ten()
+add_closure = sum_ten(1)
 print(add_closure(5))
+
+## Funciones que ya existen #
+
+#Map necesita un conjuto iterable, itera por cada elemento y aplica la funcion#
+
+numbers = [2, 5, 10, 21]
+
+def multiply(number):
+    return number * 2
+
+print(list(map(multiply,numbers)))
