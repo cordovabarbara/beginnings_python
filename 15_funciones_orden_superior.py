@@ -90,9 +90,20 @@ print(add_closure(5))
 
 #Map necesita un conjuto iterable, itera por cada elemento y aplica la funcion#
 
-numbers = [2, 5, 10, 21]
+numbers = [2, 5, 10, 21, 26, 8, 30]
 
 def multiply(number):
     return number * 2
 
 print(list(map(multiply,numbers)))
+
+#Filter#
+
+# funcion e iterable#
+
+def filter_function(num):
+    if num > 10:
+        return True
+    return False
+
+print(list(filter(filter_function, numbers)))
