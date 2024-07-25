@@ -22,3 +22,15 @@ print(my_list[3])
 """import maths
 ModuleNotFoundError: No module named 'maths'"""
 import math
+
+#AttributeError
+#print(math.PI)
+#AttributeError: module 'math' has no attribute 'PI'. Did you mean: 'pi'?
+print(math.pi)
+
+# KeyError
+#my_new_dict = {"Nombre":"Anais", "Apellido":"Cordova", "Edad":31, 1:"Python"}
+#print(my_new_dict["Apellidos"])
+#KeyError: 'Apellidos'
+my_new_dict = {"Nombre":"Anais", "Apellido":"Cordova", "Edad":31, 1:"Python"}
+print(my_new_dict["Apellido"])
