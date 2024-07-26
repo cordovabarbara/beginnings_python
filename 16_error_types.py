@@ -42,3 +42,16 @@ print(my_new_dict["Apellido"])
 #ImportError: cannot import name 'PI' from 'math' (unknown location). Did you mean: 'pi'?
 from math import pi
 print(pi)
+
+# ValueError
+#my_int = int("10 años")
+#print(type(my_int))
+#ValueError: invalid literal for int() with base 10: '10 años'
+my_int = int("10")
+print(type(my_int))
+
+# ZeroDivisionError
+#ZeroDivisionError: division by zero
+#print(4/0)
+print(4/2)
+
