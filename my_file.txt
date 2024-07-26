@@ -1,0 +1,4 @@
+Mi nombe es Barbara
+Mi apellido es cordova
+mi edad es 31
+Estoy aprendiendo python
