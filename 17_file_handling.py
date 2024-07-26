@@ -8,3 +8,5 @@ txt_file = open("./my_file.txt", "r+")
 
 for line in txt_file.readlines():
     print(line)
+print(txt_file.readline())
+txt_file.close()
