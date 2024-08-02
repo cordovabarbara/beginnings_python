@@ -7,4 +7,10 @@ my_string = "Esta es la leccion de expresiones regulares"
 my_other_string = "Esta no es la leccion de expresiones regulares"
 
 
-print(re.match("Esta es la leccion", my_string))
+match = re.match("Esta es la leccion", my_string, re.I)
+print(match)
+
+print(re.match("Esta es la leccion", my_other_string))
+
+start, end = match.span()
+print(my_string[start:end])
