@@ -33,3 +33,36 @@ print(re.split(":", my_string))
 # sub
 print(re.sub("expresiones regulares", "RegEx", my_string))
 print(re.sub("[l|L]eccion", "LECCION", my_string))
+
+#Patterns
+
+pattern = r"[lL]eccion"
+print(re.findall(pattern, my_string))
+
+
+pattern = r"[lL]eccion|expresiones"
+print(re.findall(pattern, my_string))
+
+pattern = r"[a-z]"
+print(re.findall(pattern, my_string))
+
+pattern = r"[0-9]"
+print(re.findall(pattern, my_string))
+
+pattern = r"[a-z]"
+print(re.findall(pattern, my_string))
+
+pattern = r"\d"
+print(re.findall(pattern, my_string))
+
+pattern = r"[l]."
+print(re.findall(pattern, my_string))
+
+pattern = r"[l].*"
+print(re.findall(pattern, my_string))
+
+# email validation regular expression 
+email = "barbara123@att.com"
+pattern = r"^[a-zA-Z0-9]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9]+$"
+print(re.match(pattern, email))
+print(re.findall(pattern, email))
