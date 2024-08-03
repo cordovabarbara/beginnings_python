@@ -14,3 +14,10 @@ print(re.match("Esta es la leccion", my_other_string))
 
 start, end = match.span()
 print(my_string[start:end])
+
+# search
+
+search = re.search("leccion", my_string, re.I)
+print(search)
+start, end = search.span()
+print(my_string[start: end])
