@@ -2,7 +2,7 @@
 
 import re
 
-my_string = "Esta es la leccion de expresiones regulares, esta es la leccion del dia"
+my_string = "Esta es la leccion de expresiones regulares, esta es la Leccion del dia"
 
 my_other_string = "Esta no es la leccion de expresiones regulares"
 
@@ -26,3 +26,10 @@ print(my_string[start: end])
 
 findall = re.findall("leccion", my_string, re.I)
 print(findall)
+
+# Split
+print(re.split(":", my_string))
+
+# sub
+print(re.sub("expresiones regulares", "RegEx", my_string))
+print(re.sub("[l|L]eccion", "LECCION", my_string))
